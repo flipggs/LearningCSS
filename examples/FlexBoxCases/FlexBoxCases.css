@@ -1,0 +1,149 @@
+.content{
+    background: #efefef;
+    padding: 5px;
+}
+
+.container{
+    border: 1px solid #6f6f6f;
+    color: #2e2e2e;
+    margin: 5px 0;
+    
+}
+
+.containerAlignItems{
+    height: 150px;
+}
+
+.containerFlexWrap{
+    width: 140px;
+}
+
+.containerFlexWrapH{
+    height: 140px;
+    width: 140px;
+}
+
+.itemFlex{
+    background: green;
+    width: 50px;
+    
+    padding: 5px;
+    margin: 5px;
+    color: #fff;
+    text-align: center;
+}
+
+.displayFlex{
+    display: flex;
+}
+
+.flexDirectionRow{
+    display: flex;
+    flex-direction: row;
+}
+
+.flexDirectionRowReverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+.flexDirectionColumn{
+    display: flex;
+    flex-direction: column;
+}
+
+.flexDirectionColumnReverse{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.justifyContentFlexStart{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.justifyContentFlexEnd{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.justifyContentCenter{
+    display: flex;
+    justify-content: center;
+}
+
+.justifyContentSpaceBetween{
+    display: flex;
+    justify-content: space-between;
+}
+
+.justifyContentSpaceAround{
+    display: flex;
+    justify-content: space-around;
+}
+
+.alignItemsStretch{
+    display: flex;
+    align-items: stretch;
+}
+
+.alignItemsFlexStart{
+    display: flex;
+    align-items: flex-start;
+}
+
+.alignItemsFlexEnd{
+    display: flex;
+    align-items: flex-end;
+}
+
+.alignItemsCenter{
+    display: flex;
+    align-items: center;
+}
+
+.alignItemsBaseline{
+    display: flex;
+    align-items: baseline;
+}
+
+.flexWrapNoWrap{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.flexWrapWrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flexWrapWrapReverse{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.flexFlowRowWrap{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.flexFlowRowReverseWrap{
+    display: flex;
+    flex-flow: row-reverse wrap;
+}
+
+.flexFlowRowReverseNoWrap{
+    display: flex;
+    flex-flow: row-reverse nowrap;
+}
+
+.flexFlowColumWrap{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.flexFlowColumReverseWrap{
+    display: flex;
+    flex-flow: column-reverse wrap;
+}
